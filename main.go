@@ -52,7 +52,7 @@ func getAlbumById(c *gin.Context) {
 }
 
 func main() {
-	fmt.Println("Implementing REST API in golang....")
+	fmt.Println("Implementing RESTFUL API in golang....")
 	router := gin.Default()
 	router.GET("/albums", getAlbums)
 	router.GET("/albums/:id", getAlbumById)
